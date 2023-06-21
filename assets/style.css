@@ -31,7 +31,7 @@ body {
 .section1 {
     background-image: url("img/section1.png");
     width:  100vw;
-    height: 44em;
+    height: 30em;
     background-color: #5d4630;
     background-size: cover;
     background-position: center;
@@ -102,17 +102,17 @@ body {
     flex-wrap: wrap;
 }
 
-.section2 span p {
+.section2 div p {
     color: #5d4630;
     font-weight: bold;
     text-shadow: 0em 0.0375em 0.159375em rgba(0, 0, 0, 0.325000);
 }
 
-.section2 span {
+.section2 div {
     color: #5d4630;
     font-weight: bold;
     line-height: 1.4em;
-    padding: 2em 5em;
+    padding: 1em 3rem 1rem;
 }
 
 
@@ -247,7 +247,7 @@ body {
     color: #5d4630;
     font-size: 0.95rem;
     line-height: 1.3em;
-    padding: 1em 4rem 1em;
+    padding: 1em 0.82rem 1em;
 }
 
 .clientes div p{
@@ -257,13 +257,10 @@ body {
 .section6 {
     background-color: #a68a80;
     color: #fcf5eb;
-    width:  100vw;
-    height: 21em;
-    
+    width:  100vw; 
 }
 
 .section6_text{
-    padding: 5em 10em 5em;
     display: inline-flex;
     flex-direction: column;
     align-items: center;
@@ -276,12 +273,11 @@ body {
     border: 2px #fcf5eb solid;
     box-sizing: border-box;
     border-color: #fcf5eb;
-    width: 12em;
-    height: 3.5em;
+    
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top:4em;
+
 }
 .section6 a {
     color: #fcf5eb;
