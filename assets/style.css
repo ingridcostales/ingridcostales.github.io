@@ -37,7 +37,6 @@ body {
     background-position: center;
     justify-content: center;
     align-items: flex-end;
-    flex-wrap: wrap;
 }
 
 .section1_text {
@@ -46,9 +45,11 @@ body {
     width:  45vw;
     line-height: 2em;
     text-shadow: 0em 0.0375em 0.159375em rgba(0, 0, 0, 0.325000);
+    flex-wrap: wrap;
 }
 
 .section1_bar { 
+    color: white;
     background-color: #5d463099;
     width: 100vw;
     height: 6em;
@@ -58,6 +59,15 @@ body {
     display: flex;
 }
 
+.logo {
+    color: white;
+    background-image: url("img/logo.svg");
+    background-size: cover;
+    background-position: center;
+    width: 14em;
+    height: 5em;
+    fill: white;
+  }
 
 .section1_bar img {
     height: 70%;
