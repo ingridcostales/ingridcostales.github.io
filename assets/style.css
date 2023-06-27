@@ -11,7 +11,7 @@ body {
 .container {
     max-width: 960px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 0px;
 }
   
 /* Media queries for responsive layout */
@@ -117,10 +117,17 @@ body {
 
 
 .section2 img {
-    height: 40vh;
+    
+    height: 35vh;
     padding: 2em 2em 2em 2em;
 }
 
+.section2_photo {
+    width:100vw;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
 
@@ -216,6 +223,9 @@ body {
 .section5 {
     background-color: #f4f1ec;
     width:  100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content : center;
 }
 
 .section5_bar { 
@@ -227,6 +237,16 @@ body {
     justify-content: left;  
 }
 
+.section5_clients_row {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.section5_clients_cell {
+    flex-grow: 2;
+}
+
 .section5_bar h2 { 
     color:white;
     font-weight: bold;
@@ -234,23 +254,20 @@ body {
 }
 
 
-.clientes {
-    /*background-image: url("img/clientes-box.svg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;*/
-    display: flex;
+.section5_clientes {
+    display: inline-flex;
     justify-content: top;
+    
 }
 
-.clientes div {
+.section5_clientes div {
     color: #5d4630;
     font-size: 0.95rem;
     line-height: 1.3em;
     padding: 1em 0.82rem 1em;
 }
 
-.clientes div p{
+.section5_clientes div p{
     font-weight: 800;
 }
 
@@ -258,6 +275,9 @@ body {
     background-color: #a68a80;
     color: #fcf5eb;
     width:  100vw; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .section6_text{
