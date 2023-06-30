@@ -49,6 +49,14 @@ body {
     align-content: center;
 }
 
+.top_link {
+    width: 4em;
+    height: 4em;
+    background-color: #5d4630;
+    margin: 2em 0em 2em;
+    margin-right:10rem;
+}
+
 /* Media queries for responsive layout */
 
 @media (max-width: 768px) {
@@ -83,8 +91,12 @@ body {
         height: 16px;
         margin-right: 1em;
     }
-}
 
+    .top_link {
+        margin-right:2rem;
+
+    }
+}
 
 .section1 {
     background-image: url("img/section1.png");
