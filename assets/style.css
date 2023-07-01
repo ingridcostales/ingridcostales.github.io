@@ -57,6 +57,13 @@ body {
     margin-right:10rem;
 }
 
+.section2_photo img {
+    width: 20em;
+    height: auto;
+    padding: 2em 2em 2em 2em;
+}
+
+
 /* Media queries for responsive layout */
 
 @media (max-width: 768px) {
@@ -69,6 +76,7 @@ body {
         width:  75vw;
         height: auto;
     }
+
 }
   
 @media (max-width: 480px) {
@@ -186,14 +194,9 @@ body {
 }
 
 
-.section2 img {
-    
-    height: 35vh;
-    padding: 2em 2em 2em 2em;
-}
-
 .section2_photo {
     width:100vw;
+    height: auto;
     display: inline-flex;
     align-items: center;
     justify-content: center;
