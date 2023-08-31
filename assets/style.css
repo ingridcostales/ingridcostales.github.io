@@ -58,104 +58,10 @@ body {
 }
 
 .section1_bar img {
-    width: 50vw;
+    width: 20vw;
     height: auto;
 }
 
-/* Media queries for responsive layout */
-
-@media (max-width: 2960px) {
-    .section1_bar img {
-        width: 20em;
-        height: auto;
-    }
-
-    .section2_photo {
-        margin-top: 2em;
-    }
-}
-
-@media (max-width: 768px) {
-    .container {
-        padding: 10px;
-    }
-
-    .image-boxed {
-        padding: 4.25em 2em 4em;
-        width:  75vw;
-        height: auto;
-    }
-
-    .section1_bar img {
-        width: 50vw;
-        height: auto;
-    }
-
-    .section2_photo img {
-        width: 50vw;
-        height: auto;
-        float: right;
-    }
-
-    .section2_content {
-        flex-wrap: wrap;
-    }
-
-    .section2_photo {
-        margin-top: 2em;
-    }
-}
-  
-@media (max-width: 480px) {
-    body {
-        font-size: 14px;
-    }
-
-    .footer_text {
-        font-size: 12px;
-    }
-
-    .image-boxed {
-        padding: 2.25em 2em 4em;
-        width:  90vw;
-        height: auto;
-    }
-    
-    .image-boxed-contact {
-        width:  16px;
-        height: 16px;
-        margin-right: 0.4em;
-    }
-
-    .top_link {
-        margin-right:2rem;
-
-    }
-
-    .section1_bar img {
-        width: 60vw;
-        height: auto;
-    }
-
-    .section2_photo img {
-        width: 34vw;
-        height: auto;
-        float: right;
-    }
-
-    .link_up {
-        position: relative;
-        transform: translateX(60%) translateY(-100%) !important;
-    }
-
-    .section2_content {
-        flex-wrap: wrap;
-    }
-
-    .servicios div a {
-        font-size: 1em;
-    }
-}
 
 
 .translucent-div {
@@ -202,6 +108,8 @@ body {
 }
 
 .section1_bar img { 
+    width: 22em;
+    height: auto;
     z-index: 1;
 }
 
@@ -231,6 +139,7 @@ body {
 
 .section2_content {
     display: flex;
+    flex-wrap: nowrap;
 }
 
 .section2_content div h3 {
@@ -239,19 +148,16 @@ body {
 }
 
 .section2_photo {
-    width: 30em;
+    width: 30%;
     height: auto;
+    margin-top: 2em;
 }
 
 .section2_photo img {
-    color: white;
-    width: 20em;
-    height: 100%;
-    padding-bottom: 0px !important;
-    padding-right: 0px !important;
+    width: 24em;
+    height: auto;
     float: right;
 }
-
 
 .section_servicios {
     position: relative;
@@ -604,4 +510,114 @@ body {
 /* Show the tooltip text when you mouse over the tooltip container */
 .tooltip:hover .tooltiptext {
     visibility: visible;
+}
+
+
+/* Media queries for responsive layout */
+@media (max-width: 900px) {
+    .section2_photo {
+        width: 60vw;
+        height: auto;
+        margin-top: 2em;
+    }
+
+    .section2_photo {
+        width: 100%;
+    }
+    
+    .section2_content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .image-boxed {
+        padding: 4.25em 2em 4em;
+        width:  75vw;
+        height: auto;
+    }
+
+    .section1_bar img {
+        width: 24em;
+        height: auto;
+    }
+
+    .section2_photo {
+        width: 100%;
+    }
+
+    .section2_content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .section2_photo img {
+        width: 22em;
+        height: auto;
+        float: right;
+    }
+}
+  
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+
+    .footer_text {
+        font-size: 12px;
+    }
+
+    .image-boxed {
+        padding: 2.25em 2em 4em;
+        width:  90vw;
+        height: auto;
+    }
+    
+    .image-boxed-contact {
+        width:  16px;
+        height: 16px;
+        margin-right: 0.4em;
+    }
+
+    .top_link {
+        margin-right:2rem;
+
+    }
+    
+    .section1_bar img {
+        width: 14em;
+        height: auto;
+    }
+
+    .section2_content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .section2_photo {
+        width: 100%;
+    }
+
+    .section2_photo img {
+        width: 24em;
+        height: auto;
+        float: right;
+    }
+
+    .link_up {
+        position: relative;
+        transform: translateX(60%) translateY(-100%) !important;
+    }
+
+    .servicios div a {
+        font-size: 1em;
+    }
+    .section_contact_bar {
+        font-size: 0.9em;
+    }
 }
